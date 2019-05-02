@@ -1,21 +1,21 @@
 {
-  "author" : "Logan Willmott",
+  "author" : "L Willmott – edited M Idema",
   "commands" : [
     {
       "script" : "script.cocoascript",
       "shortcut" : "",
-      "name" : "Rename artboards",
-      "identifier" : "rename artboards"
+      "name" : "Rename artboards fork",
+      "identifier" : "rename artboards fork"
     }
   ],
   "menu" : {
     "isRoot": true,
     "items" : [
-      "rename artboards",
+      "rename artboards fork",
     ]
   },
-  "version" : "1.0",
-  "description" : "Auto rename artboards",
-  "authorEmail" : "loganwillmott@gmail.com",
-  "name" : "Rename artboards"
+  "version" : "1.02",
+  "description" : "Auto rename artboards fork",
+  "authorEmail" : "maarten.idema@xero.com",
+  "name" : "Rename artboards fork"
 }
