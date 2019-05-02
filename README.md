@@ -1,4 +1,4 @@
-The documentation and code here is a fork of loganw [work](https://github.com/loganw/Sketch_Auto-rename-artboards/).
+The documentation and code here is a fork from [loganw/Sketch_Auto-rename-artboards](https://github.com/loganw/Sketch_Auto-rename-artboards).
 
 This fork is a small change that renames the artboards different 
 
