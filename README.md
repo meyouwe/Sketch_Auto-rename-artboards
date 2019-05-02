@@ -1,9 +1,9 @@
 The documentation and code here is a fork from [loganw/Sketch_Auto-rename-artboards](https://github.com/loganw/Sketch_Auto-rename-artboards).
 
-This fork is a small change that renames the artboards different 
+This fork is a small change that renames the artboards slightly different. 
 
 # Auto rename artboards
-Renames artboards using the artboard position and the name you have given to the layer
+Renames artboards using the artboard position and the name you have given to the layer.
 
 In Logan’s version the artboards are renamed: [Page name] – [A,B,C... (row) ] [00, 01, 02... (column)].
 In this fork, artboards are renamed: [A,B,C... (row) ] [00, 01, 02... (column)] _ [Artboard name]
