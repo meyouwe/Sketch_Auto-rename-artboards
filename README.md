@@ -1,22 +1,22 @@
+Renames Sketch artboards with a number and the layer name based on their position from top left
+
+The documentation and code here is a fork of loganw [work](https://github.com/loganw/Sketch_Auto-rename-artboards/).
+
+This fork is a small change that renames the artboards different 
+
 # Auto rename artboards
-Renames artboards using the page name & artboard position
+Renames artboards using the artboard position and the name you have given to the layer
 
-Artboards are renamed in this format:
-[Page name] – [A,B,C... (row) ] [00, 01, 02... (column)]
+In Logan’s version the artboards are renamed: [Page name] – [A,B,C... (row) ] [00, 01, 02... (column)].
+In this fork, artboards are renamed: [A,B,C... (row) ] [00, 01, 02... (column)] _ [Artboard name]
 
-
-
+When you reposition the artboard and rerun the script. Only the numbering changes. Nothing after ' _ '. So long as you don’t use another underscore in your layer name.
 
 ## Installation
-1. Download the repository from this [link](https://github.com/loganw/Sketch_Auto-rename-artboards/archive/master.zip).
-2. Grab the `Place things along a path` folder from the ZIP.
-3. In Sketch 3, select `Plugins > Reveal Plugins Folder...` from the menu bar, and put the `Place things along a path` folder in this folder.
+1. Download the repository from this [here](https://github.com/meyouwe/Sketch_Auto-rename-artboards/archive/master.zip).
+2. Unzip this file.
+3. Locate and double click `Auto rename artboards fork.sketchplugin' in the folder `Auto rename artboards`. Sketch should load this plugin.
+
 
 ## Usage
-1. Plugins > Rename artboards
-
-## Questions? Am I missing something?
-Flick me a message [@__lw](http://twitter.com/__lw) or submit a pull request
-
-## Credit
-Based on [@elihorne's smartboards](https://github.com/elihorne/smartboards)
+1. Plugins > Rename artboards fork
