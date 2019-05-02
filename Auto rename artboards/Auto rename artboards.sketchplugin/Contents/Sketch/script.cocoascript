@@ -83,9 +83,15 @@ function renameArtboards( page, artboards ){
     }
     columnName += currentColumn;
 
+    var artboard_name_tweak = artboard.name.split(' _ ')
+    if( artboard_name_tweak.length > 1) {
+      artboard_name_tweak = artboard_name_tweak[1]
+    } else {
+      artboard_name_tweak = artboard_name_tweak[0]
+    }
 
     // Assemble the new artboard name
-    var newArtboardName = pageName + ' – ' + rowName + ' ' + columnName;
+    var newArtboardName = rowName + ' ' + columnName + ' _ ' + artboard_name_tweak;
     artboard.artboard.setName( newArtboardName );
 
     ++currentColumn;
